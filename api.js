@@ -1,7 +1,8 @@
 const fetch = require('node-fetch');
 
 function API(zip) {
-  this.key = "ce9dd6246520b7b435a1c2c921ea6b8e";
+  // Please create an account at https://openweathermap.org and get an API key.
+  this.key = "";
   this.endpoint = "https://api.openweathermap.org/data/2.5/weather?zip=";
   this.zip = zip;
 }
